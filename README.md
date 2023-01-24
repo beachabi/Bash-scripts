@@ -1,8 +1,4 @@
-# bash-scripts
-Various bash script experience and practice 
-
-
-## file_generator
+# file_generator
 
 The script creates generates name and files from letters.
  
@@ -29,7 +25,7 @@ After will be created a log file with data on all created folders and files (ful
 
 
 
-## system_research
+# system_research
 
 The script will find and output the following information about system:
 
@@ -58,7 +54,7 @@ The file name must looks like: **DD_MM_YY_HH_MM_SS.status**
 
 
 
-## file_system_research
+# file_system_research
 
 The script is run with a single parameter.  
 The parameter is an absolute or relative path to a directory. The parameter must end with '/', for example:  
@@ -100,7 +96,7 @@ etc up to 10
 ```
 
 
-## file_system_clogging
+# file_system_clogging
 
 When running the script, file folders will be created in different any locations on the file system.
 
@@ -118,7 +114,7 @@ At the end of the script will be created log file with data on all created folde
 
 
 
-## cleaning_file_system
+# cleaning_file_system
 
 The script will clear the system from the folders and files created in 3 ways:
 
@@ -130,7 +126,7 @@ The cleaning method is set as a parameter with a value of 1, 2 or 3 when you run
 
 
 
-## logs_generator
+# logs_generator
 
 Bash script will generates **nginx** log files in *combined* format. Each log should contain information for 1 day.
 
@@ -146,7 +142,7 @@ For each entry there should be randomly generated the following:
 
 
 
-## logs_monitoring
+# logs_monitoring
 
 Bash script to parse **nginx** logs via **awk**.
 The script is run with 1 parameter, which has a value of 1, 2, 3 or 4.
